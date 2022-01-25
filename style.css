@@ -73,6 +73,7 @@ iframe {
 
 #images{
     display: flex;
+    flex-wrap: wrap;
 }
 
 .doom-imgs {
@@ -81,7 +82,7 @@ iframe {
 
 }
 #images li {
-    margin: 8px;
+    margin: 12px;
     text-align: center;
     font-weight: 900;
     font-size: 20px;
