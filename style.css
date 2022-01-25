@@ -1,16 +1,16 @@
-body {
-    display: flex;
-    flex-direction: column;
-    height: 100%;
-    width: 100%;
-    margin: 0;
-}
 
 .video-background {
     width: 100vw;
     height: 100vh;
     overflow: hidden;
     position: relative;
+    display: flex;
+    flex-direction: column;
+
+}
+
+body {
+    margin: 0;
 }
 
 iframe {
@@ -57,11 +57,15 @@ iframe {
     flex-direction: column;
     position: relative;
     align-items: center;
-    position: relative;
-    color: white;
+    justify-content: center;
+    color: black;
     text-shadow: 0 0 30px black;
     flex: 1;
+}
 
+.sign-up-banner {
+    display: flex;
+    justify-content: center;
 }
 
 
@@ -69,6 +73,14 @@ iframe {
     position: relative;
     color: rgb(242, 89, 0);
     background-color: rgba(0,0,0,.6);
+    text-shadow: 0 0 20px black;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+div h3 {
+    color: rgb(196, 114, 71);
 }
 
 .header, .footer {
@@ -87,4 +99,13 @@ iframe {
 ul {
     padding: 8px;
     margin: 4px;
+}
+
+a{
+    text-decoration: none;
+    color: #22160f;
+}
+
+a:hover{
+    text-decoration: underline;
 }
