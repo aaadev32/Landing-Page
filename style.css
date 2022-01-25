@@ -86,6 +86,7 @@ iframe {
 
 .sign-up-banner {
     display: flex;
+    position: relative;;
     justify-content: center;
 }
 
